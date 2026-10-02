@@ -1,47 +1,20 @@
-# Rehan Public School — School Management System
+# Profile Edit Feature + Photo Upload
 
-A complete frontend School Management System + Public Website built with HTML5, CSS3, and Vanilla JavaScript.
-
-## How to Run
-
-1. Open `index.html` in a modern browser (Chrome, Firefox, Edge)
-2. Click **Login** to access the management portal
-3. Use demo accounts:
-
-| Role    | Email                      | Password   |
-|---------|----------------------------|------------|
-| Admin   | admin@rehan-school.com     | admin123   |
-| Teacher | teacher@rehan-school.com   | teacher123 |
-| Student | student@rehan-school.com   | student123 |
-| Parent  | parent@rehan-school.com    | parent123  |
+Profile page with **Edit Profile** + **Profile Picture Upload**.
 
 ## Features
+- View profile (Name, Email, Phone, Role, User ID)
+- **Edit Profile** button → opens modal
+- Upload profile picture (JPG/PNG/GIF, max 2MB)
+- Remove photo option
+- Photo + data saved in browser localStorage
+- Responsive design
 
-- Public school website with admissions, events, gallery, contact
-- Role-based access (Admin, Teacher, Student, Parent)
-- Full CRUD for Students, Teachers, Parents, Staff, Classes, Subjects
-- Attendance marking with statistics
-- Timetable management
-- Exam & Results with auto grade calculation
-- Fee collection with payment tracking
-- Payroll, Expenses, Finance dashboard with charts
-- Library, Transport, Inventory
-- Homework, Assignments, Quizzes
-- Notices, Events, Calendar
-- Certificates & ID Card generators
-- Reports center with print
-- Leave management, PTM, Visitors, Complaints, Discipline
-- Achievements, Gallery, Communication
-- Activity log, Notifications
-- Dark mode, responsive design
-- Backup/Restore (JSON export/import)
-- LocalStorage data persistence
+## How to use
+1. Unzip the folder
+2. Open `index.html` in browser
+3. Click **Edit Profile**
+4. Click **Upload Photo** → select image from gallery/camera
+5. Save Changes
 
-## Tech Stack
-
-- HTML5 + CSS3 (CSS Variables, Flexbox, Grid)
-- Vanilla JavaScript ES6+
-- Chart.js (CDN) for dashboard charts
-- LocalStorage for all data
-
-No frameworks. No backend. Works offline after first load.
+Photo will appear on profile header + navbar avatar.
